@@ -43,7 +43,7 @@ body.light{
 }
 
 body{
-    --bg-main: rgb(51, 79, 116);
+    --bg-main: rgb(35, 117, 224);
     --text-dim: #f0f0f0cb;
     --text-med: rgba(243, 239, 239, 0.753);
     --text-light: #ded5e9;
@@ -61,7 +61,7 @@ body{
     --bg-top-gradient: linear-gradient(0deg, #130e1700, var(--bg-main));
   /*  --bg-tile-image: url("bgmaskdark.png");  */
     --bg-gradient-top: rgba(7, 7, 7, 0.733);
-    --bg-gradient-bottom: rgba(26, 47, 56, 0.333);
+    --bg-gradient-bottom: rgba(4, 38, 53, 0.945);
     background-image: linear-gradient(var(--bg-gradient-top), var(--bg-gradient-bottom), var(--bg-gradient-top));
     background-size: 100vw 200vh;
     background-repeat: repeat;
