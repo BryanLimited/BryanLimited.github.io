@@ -170,7 +170,7 @@ body.light .name-head{
     font-size: var(--name-height);
     color:transparent;
     filter: drop-shadow(0 10px 2px var(--bg-main));
-    --name-top: #f0f0f0;
+    --name-top: #b12d2d;
     --name-mid: var(--text-light);
     --name-bottom: #130e1760;
     background: linear-gradient(var(--name-top) 12.5%, var(--name-mid), var(--name-bottom) 37.5%, #0000 100%);
