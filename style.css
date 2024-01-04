@@ -59,7 +59,7 @@ body{
 
     --bg-top-gradient: linear-gradient(0deg, #130e1700, var(--bg-main));
     --bg-tile-image: url("bgmaskdark.png");
-    --bg-gradient-top: #f004;
+    --bg-gradient-top: rgba(222, 224, 221, 0.733);
     --bg-gradient-bottom: #00f5;
     background-image: linear-gradient(var(--bg-gradient-top), var(--bg-gradient-bottom), var(--bg-gradient-top));
     background-size: 100vw 200vh;
@@ -157,7 +157,7 @@ body{
 
 body.light .name-head{
     filter:none;
-    --name-top: #4525b9;
+    --name-top: #dd6c6c;
     --name-mid: #12a4e7;
     --name-bottom: #189fb160;
 }
