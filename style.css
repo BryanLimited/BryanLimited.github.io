@@ -43,7 +43,7 @@ body.light{
 }
 
 body{
-    --bg-main: rgb(14, 10, 13);
+    --bg-main: rgb(241, 241, 241);
     --text-dim: #f0f0f0de;
     --text-med: #f3efef9a;
     --text-light: #92294e;
