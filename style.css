@@ -1,6 +1,6 @@
 @font-face {
     font-family: Perfect-Dos;
-    src: url("Facibian\ FREE\ .tff"); 
+    src: url("Facibian_FREE[1].ttf"); 
 }
 @font-face {
     font-family: Kitty-M;
@@ -31,7 +31,7 @@ body.light{
 
     --sky-top: #7590bf;
     --sky-mid: #ff8e74;
-    --sky-bottom: #fde75b;
+    --sky-bottom: #4e19dd;
 
     --content-shadow: #ff000041;
 
@@ -44,7 +44,7 @@ body.light{
 body{
     --bg-main: #130e17ff;
     --text-dim: #8e7d8f;
-    --text-med: #9d2aa5;
+    --text-med: #1f2f3d;
     --text-light: #ff2975;
     --text-light-2: #03658c
     --text-light-3: #ffea8f;
@@ -157,8 +157,8 @@ body{
 
 body.light .name-head{
     filter:none;
-    --name-top: #ff17a6;
-    --name-mid: #ff5874;
+    --name-top: #4525b9;
+    --name-mid: #be3249;
     --name-bottom: #e7e8f060;
 }
 
@@ -170,7 +170,7 @@ body.light .name-head{
     font-size: var(--name-height);
     color:transparent;
     filter: drop-shadow(0 10px 2px var(--bg-main));
-    --name-top: #ffd319;
+    --name-top: #5c1ecf;
     --name-mid: var(--text-light);
     --name-bottom: #130e1760;
     background: linear-gradient(var(--name-top) 12.5%, var(--name-mid), var(--name-bottom) 37.5%, #0000 100%);
