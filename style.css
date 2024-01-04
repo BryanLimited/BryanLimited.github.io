@@ -43,7 +43,7 @@ body.light{
 }
 
 body{
-    --bg-main: rgb(19, 19, 20);
+    --bg-main: rgb(51, 79, 116);
     --text-dim: #f0f0f0cb;
     --text-med: rgba(243, 239, 239, 0.753);
     --text-light: #ded5e9;
@@ -56,12 +56,12 @@ body{
     --sky-top: var(--bg-main);
     --sky-mid: #03658c
     --sky-bottom: #e3004f;
-    --content-shadow: #e9e5e583;
+    --content-shadow: #07070783;
 
     --bg-top-gradient: linear-gradient(0deg, #130e1700, var(--bg-main));
   /*  --bg-tile-image: url("bgmaskdark.png");  */
     --bg-gradient-top: rgba(7, 7, 7, 0.733);
-    --bg-gradient-bottom: #00f5;
+    --bg-gradient-bottom: rgba(26, 47, 56, 0.333);
     background-image: linear-gradient(var(--bg-gradient-top), var(--bg-gradient-bottom), var(--bg-gradient-top));
     background-size: 100vw 200vh;
     background-repeat: repeat;
@@ -172,7 +172,7 @@ body.light .name-head{
     font-size: var(--name-height);
     color:transparent;
     filter: drop-shadow(0 10px 2px var(--bg-main));
-    --name-top: #b12d2d;
+    --name-top: #fdfdfd;
     --name-mid: var(--text-light);
     --name-bottom: #130e1760;
     background: linear-gradient(var(--name-top) 12.5%, var(--name-mid), var(--name-bottom) 37.5%, #0000 100%);
