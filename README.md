@@ -1,5 +1,6 @@
 # BryanLimited.github.io
 
+Final Draft 
 
-FINAL PROJECT
-REFURBISHED 
+Moved to a new account for organization
+Will be refurbished 
