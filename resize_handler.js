@@ -5,13 +5,13 @@ let resizeFunc = () => {
         titletext.innerText = "Bryan Soares";
     }
     else if(window.innerWidth > 840){
-        titletext.innerText = "myaumyau";
+        titletext.innerText = "Bryan Soares";
     }
     else if(window.innerWidth > 460){
-        titletext.innerText = "myau";
+        titletext.innerText = "Bryan";
     }
     else{
-        titletext.innerText = "mm";
+        titletext.innerText = "BRY-S";
     }
 }
 
