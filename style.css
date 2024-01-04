@@ -1,10 +1,10 @@
 @font-face {
     font-family: Perfect-Dos;
-    src: url("Facibian FREE.ttf"); 
+    src: url("amarurgt.ttf"); 
 }
 @font-face {
     font-family: Kitty-M;
-    src: url("PerfectDOSKittyM.ttf");
+    src: url("Traveler.ttf");
 }
 
 /*
@@ -158,8 +158,8 @@ body{
 body.light .name-head{
     filter:none;
     --name-top: #4525b9;
-    --name-mid: #be3249;
-    --name-bottom: #e7e8f060;
+    --name-mid: #12a4e7;
+    --name-bottom: #189fb160;
 }
 
 .name-head{
