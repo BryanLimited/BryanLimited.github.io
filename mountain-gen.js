@@ -1,4 +1,7 @@
-let target_elem = document.getElementsByClassName("name-bg")[0];
+// ---------------DISBANDED--------------------
+
+
+/* let target_elem = document.getElementsByClassName("name-bg")[0];
 
 let svg_width = window.innerWidth;
 let svg_height;
@@ -73,3 +76,4 @@ function svgResize(){
 target_elem.innerHTML = getSvg();
 
 window.onresize = svgResize;
+*/
