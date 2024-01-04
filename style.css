@@ -42,9 +42,9 @@ body.light{
 }
 
 body{
-    --bg-main: #130e17ff;
-    --text-dim: #8e7d8f;
-    --text-med: #1f2f3d;
+    --bg-main: rgb(243, 243, 243);
+    --text-dim: #f0f0f0;
+    --text-med: #f3f3f3;
     --text-light: #ff2975;
     --text-light-2: #03658c
     --text-light-3: #ffea8f;
@@ -170,7 +170,7 @@ body.light .name-head{
     font-size: var(--name-height);
     color:transparent;
     filter: drop-shadow(0 10px 2px var(--bg-main));
-    --name-top: #5c1ecf;
+    --name-top: #f0f0f0;
     --name-mid: var(--text-light);
     --name-bottom: #130e1760;
     background: linear-gradient(var(--name-top) 12.5%, var(--name-mid), var(--name-bottom) 37.5%, #0000 100%);
