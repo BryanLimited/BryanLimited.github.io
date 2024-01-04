@@ -36,8 +36,8 @@ body.light{
     --content-shadow: #ff000041;
 
     --bg-top-gradient: linear-gradient(0deg, #fff0, var(--bg-main));
-   --bg-tile-image: url 
-   
+ /*  --bg-tile-image: url - add image later 
+   */
     --bg-gradient-top: #f002;
     --bg-gradient-bottom: #00f2;
 }
