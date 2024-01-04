@@ -19,7 +19,7 @@
 */
 
 body.light{
-    --bg-main: #601fc9;
+    --bg-main: #9467dd;
     --text-dim: #00d6cc
     --text-med: #ff8080;
     --text-light: #ca1717;
@@ -43,9 +43,9 @@ body.light{
 }
 
 body{
-    --bg-main: rgb(67, 6, 92);
+    --bg-main: rgb(83, 81, 196);
     --text-dim: #f0f0f0de;
-    --text-med: #f3efef9a;
+    --text-med: rgba(243, 239, 239, 0.877);
     --text-light: #92294e;
     --text-light-2: #03658c
     --text-light-3: #ffea8f;
