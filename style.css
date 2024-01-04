@@ -22,8 +22,8 @@ body.light{
     --bg-main: #601fc9;
     --text-dim: #00d6cc
     --text-med: #ff8080;
-    --text-light: #ff6060;
-    --text-light-2: #b844ae;
+    --text-light: #ca1717;
+    --text-light-2: #700a68;
     --text-light-3: #ffea8f;
 
     --sun-light: #ffd319;
@@ -43,14 +43,14 @@ body.light{
 }
 
 body{
-    --bg-main: rgb(65, 53, 133);
-    --text-dim: #f0f0f09c;
-    --text-med: #f3f3f323;
-    --text-light: #ff2975;
+    --bg-main: rgb(14, 10, 13);
+    --text-dim: #f0f0f0de;
+    --text-med: #13111123;
+    --text-light: #92294e;
     --text-light-2: #03658c
     --text-light-3: #ffea8f;
 
-    --sun-light: #ffd319;
+    --sun-light: #d3b532;
     --sun-dark: #03658c
 
     --sky-top: var(--bg-main);
@@ -59,7 +59,7 @@ body{
     --content-shadow: #ff000071;
 
     --bg-top-gradient: linear-gradient(0deg, #130e1700, var(--bg-main));
-    --bg-tile-image: url("bgmaskdark.png");
+  /*  --bg-tile-image: url("bgmaskdark.png");  */
     --bg-gradient-top: rgba(180, 28, 155, 0.733);
     --bg-gradient-bottom: #00f5;
     background-image: linear-gradient(var(--bg-gradient-top), var(--bg-gradient-bottom), var(--bg-gradient-top));
