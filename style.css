@@ -19,7 +19,7 @@
 */
 
 body.light{
-    --bg-main: #7152a3;
+    --bg-main: #601fc9;
     --text-dim: #00d6cc
     --text-med: #ff8080;
     --text-light: #ff6060;
@@ -60,7 +60,7 @@ body{
 
     --bg-top-gradient: linear-gradient(0deg, #130e1700, var(--bg-main));
     --bg-tile-image: url("bgmaskdark.png");
-    --bg-gradient-top: rgba(222, 224, 221, 0.733);
+    --bg-gradient-top: rgba(180, 28, 155, 0.733);
     --bg-gradient-bottom: #00f5;
     background-image: linear-gradient(var(--bg-gradient-top), var(--bg-gradient-bottom), var(--bg-gradient-top));
     background-size: 100vw 200vh;
