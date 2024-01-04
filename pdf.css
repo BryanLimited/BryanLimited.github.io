@@ -21,7 +21,7 @@
 
 .pdf-container .iframe-container{
     margin: 20px;
-    width:75vw;
+    width:55vw;
     height:75vh;
     border: 2px solid var(--text-light);
     background-color: var(--bg-main);

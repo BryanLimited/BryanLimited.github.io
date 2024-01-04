@@ -43,10 +43,10 @@ body.light{
 }
 
 body{
-    --bg-main: rgb(5, 23, 49);
-    --text-dim: #f0f0f0cb;
+    --bg-main: rgb(36, 35, 35);
+    --text-dim: #b93636cb;
     --text-med: rgba(243, 239, 239, 0.753);
-    --text-light: #ded5e9;
+    --text-light: #ffffff;
     --text-light-2: #ebe8e8
     --text-light-3: #ffea8f;
 
@@ -60,8 +60,8 @@ body{
 
     --bg-top-gradient: linear-gradient(0deg, #130e1700, var(--bg-main));
   /*  --bg-tile-image: url("bgmaskdark.png");  */
-    --bg-gradient-top: rgba(7, 7, 7, 0.733);
-    --bg-gradient-bottom: rgba(4, 38, 53, 0.945);
+    --bg-gradient-top: rgba(35, 41, 75, 0.733);
+    --bg-gradient-bottom: rgba(0, 0, 0, 0.945);
     background-image: linear-gradient(var(--bg-gradient-top), var(--bg-gradient-bottom), var(--bg-gradient-top));
     background-size: 100vw 200vh;
     background-repeat: repeat;
@@ -87,7 +87,7 @@ body{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    background-color: black;
+    background-color: rgb(198, 78, 78);
     background: var(--bg-top-gradient), var(--bg-tile-image);
     background-repeat: no-repeat, repeat;
     background-attachment: scroll, fixed;
@@ -127,7 +127,7 @@ body{
     left:0;
     height:300px;
     overflow:hidden;
-    border-bottom: 1px solid var(--bg-main); /* Only way to fix the annoying 1px gap */
+    /* Only way to fix the annoying 1px gap */
 }
 
 .mountains-svg{

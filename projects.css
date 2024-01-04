@@ -1,9 +1,9 @@
 .project{
     color:var(--text-light-2);
     font-size: max(18px, 0.82vw);
-    border-radius: 10px;
+    border-radius: 30px;
     border: 2px solid var(--text-light);
-    min-height:200px;
+    min-height:300px;
     text-align:center;
     padding: 10px;
     padding-bottom: 4vw;
@@ -16,11 +16,11 @@
 }
 
 .project .subsection-head{
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 .project .desc{
-    width: 60%;
+    width: 90%;
     position: sticky;
 }
 
@@ -31,7 +31,7 @@
     padding:4px;
 
     height:max(34px, 1.8vw);
-    width:max(34px, 1.8vw);
+    width:max(44px, 1.8vw);
     position: absolute;
     left: 0.6vw;
     bottom: 0.6vw;
@@ -87,7 +87,7 @@
 }
 
 .project:hover .background-cover{
-    opacity:0.7;
+    opacity:1.7;
 }
 
 .project:hover .bg{
@@ -104,7 +104,7 @@
     bottom:-1vw;
     opacity: 0;
     background-color: var(--bg-main);
-    transition: opacity 0.1s linear;
+    transition: opacity 0.7s linear;
     border-radius: 1vw;
 }
 
