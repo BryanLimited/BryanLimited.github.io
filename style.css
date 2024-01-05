@@ -56,11 +56,11 @@ body{
     --sky-top: var(--bg-main);
     --sky-mid: #03658c
     --sky-bottom: #e3004f;
-    --content-shadow: #07070783;
+    --content-shadow: #b5a9a983;
 
     --bg-top-gradient: linear-gradient(0deg, #130e1700, var(--bg-main));
   /*  --bg-tile-image: url("bgmaskdark.png");  */
-    --bg-gradient-top: rgba(35, 41, 75, 0.733);
+    --bg-gradient-top: rgba(0, 0, 0, 0.733);
     --bg-gradient-bottom: rgba(0, 0, 0, 0.945);
     background-image: linear-gradient(var(--bg-gradient-top), var(--bg-gradient-bottom), var(--bg-gradient-top));
     background-size: 100vw 200vh;
@@ -174,7 +174,7 @@ body.light .name-head{
     filter: drop-shadow(0 10px 2px var(--bg-main));
     --name-top: #fdfdfd;
     --name-mid: var(--text-light);
-    --name-bottom: #130e1760;
+    --name-bottom: #00000060;
     background: linear-gradient(var(--name-top) 12.5%, var(--name-mid), var(--name-bottom) 37.5%, #0000 100%);
     /*background-color: var(--bg-main);*/
     background-size: 100% calc(var(--name-height) * 4.5);
@@ -231,7 +231,7 @@ body.light .name-head{
 }
 
 .social-buttons .social-button:hover{
-    background: #ff4d8b3d;
+    background: #ede5e53d;
 }
 
 .social-buttons .social-button .social-popup{

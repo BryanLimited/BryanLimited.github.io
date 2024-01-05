@@ -87,7 +87,7 @@
 }
 
 .project:hover .background-cover{
-    opacity:1.7;
+    opacity:0.5;
 }
 
 .project:hover .bg{
