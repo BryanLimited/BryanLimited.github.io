@@ -43,14 +43,14 @@ body.light{
 }
 
 body{
-    --bg-main: rgb(36, 35, 35);
-    --text-dim: #b93636cb;
-    --text-med: rgba(243, 239, 239, 0.753);
+    --bg-main: rgb(26, 28, 34);
+    --text-dim: #f8f8f8cb;
+    --text-med: rgba(66, 186, 207, 0.753);
     --text-light: #ffffff;
     --text-light-2: #ebe8e8
     --text-light-3: #ffea8f;
 
-    --sun-light: #d3b532;
+    --sun-light: #302f2c;
     --sun-dark: #03658c
 
     --sky-top: var(--bg-main);
@@ -60,7 +60,7 @@ body{
 
     --bg-top-gradient: linear-gradient(0deg, #130e1700, var(--bg-main));
   /*  --bg-tile-image: url("bgmaskdark.png");  */
-    --bg-gradient-top: rgba(62, 73, 92, 0.733);
+    --bg-gradient-top: rgba(56, 78, 116, 0.733);
     --bg-gradient-bottom: rgba(0, 0, 0, 0.945);
     background-image: linear-gradient(var(--bg-gradient-top), var(--bg-gradient-bottom), var(--bg-gradient-top));
     background-size: 100vw 200vh;
@@ -87,7 +87,7 @@ body{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(198, 78, 78);
+    background-color: rgb(103, 84, 84);
     background: var(--bg-top-gradient), var(--bg-tile-image);
     background-repeat: no-repeat, repeat;
     background-attachment: scroll, fixed;
@@ -159,7 +159,7 @@ body{
 
 body.light .name-head{
     filter:none;
-    --name-top: #dd6c6c;
+    --name-top: #554545;
     --name-mid: #12a4e7;
     --name-bottom: #189fb160;
 }
@@ -360,7 +360,7 @@ body.light .name-head{
 }
 
 .col-layout > .content-col+.content-col::before{
-    --divider-width: 2px;
+    --divider-width: 1px;
     content:"";
     width:0px;
     height:100%;
@@ -371,12 +371,12 @@ body.light .name-head{
 
 .grid-layout{
     display:grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 1vw;
 }
 
 .content-text .subsection+.subsection{
-    margin-top: 30px;
+    margin-top: 19px;
  }
 
  .content-text .subsection+.subsection-head{
