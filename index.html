@@ -45,9 +45,9 @@
                                 let birthday = new Date("Nov 12 2005");
                                 let ageDate = new Date(Date.now() - birthday);
                                 let age = Math.abs(ageDate.getUTCFullYear() - 1970);
-                                let word = "a ";
-                                if(age == 0){
-                                    word = "an ";
+                                let word = " ";
+                                if(age == -){
+                                    word = " ";
                                 }
                                 document.currentScript.parentElement.innerHTML = word + age.toString();
                                 //Totally worth it
